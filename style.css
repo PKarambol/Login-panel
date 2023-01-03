@@ -1,0 +1,49 @@
+body{
+    user-select: none;
+    padding: 40px 0 40px 0;
+    display: flex;
+    align-items: center;
+    background-color: #181821 !important;
+}
+#rsm1{
+    color: white;
+}
+#email,#pass{
+    background-color: #343a40;
+    color: white;
+    border: #343a40;
+}
+#pass{
+    margin-top: 10px;
+}
+#pass::placeholder,#email::placeholder{
+    color: white;
+}
+#rememberme{
+    float: left;
+}
+#rememberme label{
+    color: white;
+}
+html,body
+{
+    height: 100%;
+}
+
+.login-form
+{
+    width: 320px;
+    margin: auto;
+}
+#fargotlink
+{
+    text-decoration: none;
+}
+#fargotlink p,#copy
+{
+    color: white !important;
+}
+#actxt{
+    color: red !important;
+    font-size: 15px;
+}
